@@ -3,6 +3,6 @@
 int main() {
     int isSunday=0;
     int isSnowing=1;
-    printf("%d\n", isSunday&&isSnowing);
+    printf("%d\n", isSunday&&isSnowing); // && operator favours false
     return 0;
 }
