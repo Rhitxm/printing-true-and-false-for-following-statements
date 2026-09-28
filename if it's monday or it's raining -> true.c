@@ -3,6 +3,6 @@
 int main() {
     int isMonday=0;
     int isRaining=1;
-    printf("%d\n", isMonday||isRaining);
+    printf("%d\n", isMonday||isRaining); // || operator favours true
     return 0;
 }
